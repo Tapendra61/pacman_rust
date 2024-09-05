@@ -1,6 +1,6 @@
 use macroquad::prelude::*;
 
 #[macroquad::main("Hello, world!")]
-fn main() {
+async fn main() {
     println!("Hello, world!");
 }
