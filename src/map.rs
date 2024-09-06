@@ -20,6 +20,7 @@ impl Map {
                     }
 
                     2 => {
+						draw_rectangle(position.x, position.y, tile_size, tile_size, BLACK);
                         draw_circle(
                             position.x + tile_size / 2.0,
                             position.y + tile_size / 2.0,
